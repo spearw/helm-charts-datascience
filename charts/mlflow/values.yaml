@@ -34,6 +34,8 @@ discoverable:
 
 liveness:
   enabled : "true"
+  initialDelaySeconds: 300
+  periodSeconds: 30
 
 security:
   networkPolicy: 
@@ -72,6 +74,8 @@ ingress:
 
 readiness:
   enabled: "true"
+  initialDelaySeconds: 300
+  periodSeconds: 30
 
 
 imagePullSecrets: []
