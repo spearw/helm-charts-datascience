@@ -34,6 +34,8 @@ discoverable:
 
 liveness:
   enabled : "true"
+
+livenessProbe:
   initialDelaySeconds: 300
   periodSeconds: 30
 
@@ -74,6 +76,8 @@ ingress:
 
 readiness:
   enabled: "true"
+
+readinessProbe:
   initialDelaySeconds: 300
   periodSeconds: 30
 
